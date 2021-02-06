@@ -37,7 +37,7 @@ function changeDialValue (index, incrementBy) {
   }
 
   if (JSON.stringify(lockState.wheels) == JSON.stringify(SECRET_COMBO)) {
-  	lockState.locked = false;
+  	lockState.locked = false
     redirect('Ruotian_Gao')
   }
 }
